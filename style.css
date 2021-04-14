@@ -1,0 +1,56 @@
+body {
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.intro-img {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.d-none {
+    display: none;
+}
+
+.start-button {
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    display: flex;
+    cursor: pointer;
+    z-index: 3;
+    top: 50px;
+    color: #ffd60b;
+}
+
+.button {
+    margin-top: 30px;
+    font-size: 40px;
+    color: black;
+    display: flex;
+    cursor: pointer;
+}
+
+.button img {
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.legend {
+    color: gray;
+    border: 1px solid gray;
+    padding: 12px;
+    text-align: center;
+    margin-top: 10px;
+}

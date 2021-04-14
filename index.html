@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Pollo Loco</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body onload="preloadImages()">
+    <h1>El Pollo Loco</h1>
+    <div onclick="init()">
+        <div class="start-button">
+            <p id="start">Start Game</p>
+        </div>
+        <img id="intro-image" class="intro-img" src="material/9.Intro _ Outro Image/Start Screen/Opción 1.png">
+    </div>
+    <canvas id="canvas" width="720" height="480">
+    </canvas>
+    <div class="button d-none" id="replay" onclick="location.reload()">
+        <img src="material/repeat.png">Replay
+    </div>
+    <div class="legend">
+        Run: Right Arrow<br>Back: Left Arrow<br> Jump: Space<br> Throw Bottle: d
+    </div>
+</body>
+
+</html>
